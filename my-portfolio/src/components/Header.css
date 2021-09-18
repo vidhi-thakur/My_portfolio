@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+.header {
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 2.5rem;
+}
+.header-brand {
+    font-family: 'MonteCarlo', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    margin-left: 1rem;
+}
