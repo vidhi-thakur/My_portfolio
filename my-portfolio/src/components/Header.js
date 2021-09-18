@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <header className="header -flex-row">
-            <div className="header-brand">vidhi thakur</div>
+            <div>
+                <Link className="header-brand" to="/">vidhi thakur</Link>
+            </div>
             <nav className="navigation-bar">
                 <span>
                     <Link className="nav-links" to="/">Home</Link>
