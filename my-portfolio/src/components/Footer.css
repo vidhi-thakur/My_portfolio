@@ -1,0 +1,13 @@
+.icons {
+    font-size: 1.7rem;
+    margin: 0px 1rem;
+    cursor: pointer;
+}
+
+.footer {
+    margin: 1rem 0px;
+}
+
+.icons:hover {
+    color: var(--primary-dark);
+}
