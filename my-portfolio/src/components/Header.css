@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: baseline;
     padding: 0px 2.5rem;
+    margin-bottom: 1rem;
 }
 .header-brand {
     font-family: 'MonteCarlo', cursive;
@@ -12,7 +13,22 @@
 }
 
 .nav-links {
-    margin-left: 1rem;
+    margin: 0px 1rem;
     color: black;
     text-decoration: none;
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .header-brand, .navigation-bar {
+        margin: auto;
+    }
+
+    .navigation-bar {
+        padding-inline-end: 1rem;
+    }
 }
