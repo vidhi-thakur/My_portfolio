@@ -2,7 +2,6 @@ import React from 'react'
 import './Footer.css'
 import { ImLinkedin, ImMail } from 'react-icons/im'
 import { SiGithub, SiCodesandbox, SiReplDotIt } from 'react-icons/si'
-import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -22,7 +21,6 @@ function Footer() {
             <a href="mailto:smmthakur@gmail.com" target="_blank" rel="noreferrer">
                 <ImMail className="icons" />
             </a>
-
         </footer>
     )
 }
