@@ -2,6 +2,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact>
-            home
+            <Home />
           </Route>
           <Route path="/projects">
             projects
