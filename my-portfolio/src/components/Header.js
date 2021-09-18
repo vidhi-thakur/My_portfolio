@@ -1,15 +1,24 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
         <header className="header -flex-row">
             <div className="header-brand">vidhi thakur</div>
             <nav className="navigation-bar">
-                <span className="nav-links">Home</span>
-                <span className="nav-links">Projects</span>
-                <span className="nav-links">Blogs</span>
-                <span className="nav-links">About</span>
+                <span>
+                    <Link className="nav-links" to="/">Home</Link>
+                </span>
+                <span>
+                    <Link className="nav-links" to="/projects">Projects</Link>
+                </span>
+                <span>
+                    <Link className="nav-links" to="/blogs">Blogs</Link>
+                </span>
+                <span>
+                    <Link className="nav-links" to="/about">About</Link>
+                </span>
             </nav>
         </header>
     )
