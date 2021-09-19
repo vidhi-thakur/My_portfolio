@@ -1,0 +1,17 @@
+.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.secondary {
+    background-color: white;
+    color: var(--primary-dark);
+}
+
+.button {
+    margin: 1rem 0px;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid var(--primary-color);
+}
