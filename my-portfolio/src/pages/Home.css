@@ -3,13 +3,14 @@
 }
 
 .home-page-image {
-    height: 500px;
+    /* height: 500px; */
     width: 500px;
+    max-width: 90%;
     background-color: white;
-    padding: 0px 3rem;
-    border-radius: 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
     object-fit: contain;
-    box-shadow: rgb(152 152 158 / 20%) 0px 7px 29px 0px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .home-section1 {
@@ -17,8 +18,18 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+    .home-section1 {
+        flex-direction: column;
+    }
+    .home-page-info {
+        margin: 1rem 0px 1rem 0px!important;
+    }
+}
+
 .home-page-info {
     margin-left: 3rem;
     text-align: justify;
     width: 500px;
+    max-width: 90%;
 }

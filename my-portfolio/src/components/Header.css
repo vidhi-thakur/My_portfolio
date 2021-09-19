@@ -29,4 +29,8 @@
     .header-brand, .navigation-bar {
         margin: auto;
     }
+
+    .w-full {
+        width: 100%;
+    }
 }
