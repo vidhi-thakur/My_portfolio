@@ -1,5 +1,5 @@
 .home {
-    margin: 5rem 0px;
+    margin: 2rem 0px;
 }
 
 .home-page-image {
@@ -13,14 +13,18 @@
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.home-section1 {
-    justify-content: center;
+.home-section1, .home-section2 {
+    justify-content: space-between;
     align-items: center;
+    min-height: 80vh;
+    max-width: 70%;
+    margin: auto;
 }
 
 @media screen and (max-width: 1200px) {
-    .home-section1 {
+    .home-section1, .home-section2 {
         flex-direction: column;
+        max-width: 100%;
     }
     .home-page-info {
         margin: 1rem 0px 1rem 0px!important;
