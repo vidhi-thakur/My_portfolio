@@ -5,7 +5,7 @@ import "./HomeCard.css"
 function HomeCard({title, internalLink, buttonType, children}) {
     return (
         <div className="homeCard">
-            <h1>{title}</h1>
+            <h1 className="text-left">{title}</h1>
             <p>{children}</p>
             <Button title={title} internalLink={internalLink} type={buttonType} />
         </div>

@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/projects">
-            projects
+            <Projects />
           </Route>
           <Route path="/blogs">
             blogs
